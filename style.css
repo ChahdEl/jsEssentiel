@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #2b3e50;
+    padding: 10px 20px;
+    color: white;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.navbar .search-container input {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.navbar .search-container button {
+    margin-left: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.hero {
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUbFI-R9FO6X4k6b9iPQlNRJCD6Ic-_yUdxg&s') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.contact, .about {
+    padding: 20px;
+}

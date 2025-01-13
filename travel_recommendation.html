@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Travel recommandation</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="style.css">
+  <script src="travel_recommendation.js" defer></script>
+</head>
+<body>
+<header>
+    <nav class="navbar">
+        <div class="logo">TravelBloom</div>
+        <div class="links">
+            <a href="#home">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#contact">Contact Us</a>
+        </div>
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Enter a destination or keyword">
+            <button class="search" onclick="executeSearch()">Search</button>
+            <button class="reset" onclick="resetSearch()">Clear</button>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <section class="hero">
+        <h1>Explore Dream Destinations</h1>
+        <p>Discover the most beautiful places in the world.</p>
+    </section>
+    <section id="recommendations" class="recommendations">
+        <!-- Recommendations will be dynamically loaded here -->
+    </section>
+</main>
+</body>
+</html>
